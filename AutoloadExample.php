@@ -1,6 +1,6 @@
 <?php
 
-namespace mikefinch\yandex;
+namespace mikefinch\YandexKassaAPI;
 
 /**
  * This is just an example.
