@@ -46,7 +46,7 @@ Once the extension is installed, you have to follow next few steps:
 **returnUrl** - User will get there after payment has got succeeded  
 **shopId** - Your shop id (from Yandex)  
 **key** - Your secret key (from Yandex)  
-**currency** - Currency obviously   
+**currency** - Currency obviously (RUB by default) 
 
 ###  2. Implement OrderInterface in your Order model
 
