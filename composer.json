@@ -1,0 +1,21 @@
+{
+    "name": "mikefinch/yii2-yandex-kassa-api",
+    "description": "This extensions allows you obtain money from users by new Yandex.Kassa's API",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mikefinch",
+            "email": "mishakozlov74@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mikefinch\\yandex\\": ""
+        }
+    }
+}
