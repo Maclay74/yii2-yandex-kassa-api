@@ -1,6 +1,6 @@
 Yandex.Kassa API extension for Yii2
 ===================================
-This extensions allows you obtain money from users by new Yandex.Kassa's API
+This extensions allows you to obtain money from users by new Yandex.Kassa's API
 
 Installation
 ------------
