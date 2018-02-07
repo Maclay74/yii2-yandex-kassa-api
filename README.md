@@ -112,7 +112,7 @@ Here we have two callbacks.
 You can provide some logic there and **return false** if something went wrong and you wanna cancel your payment.
 
 The second one is **beforeConfirm**. It executes when user successfully paid your payment
- and now you have to confirm your order, send sms notification, etc. 
+ and now you have to confirm this order, send sms notification, etc. 
  Be careful, if you **return false** is this callback, payment won't be confirmed and user will receive his money back in a few hours.
 
 ###  4. Config your Yandex.Kassa notification page
