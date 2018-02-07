@@ -119,9 +119,10 @@ The second one is **beforeConfirm**. It executes when user successfully paid you
 
 ![Settings page](https://yastatic.net/doccenter/images/support.yandex.ru/ru/checkout/freeze/twhOFiPLqML0235O-XsmyV9ztM8.png) 
 
-Set your notification page Url as same as you used in config.  
+Set your notification page Url as same as you used in your controller.  
+For example, if you added your actions to SiteController, it would be https://yoursite.com/site/notify  
 Don't forget about **SSL** - Yandex sends notifications only through it.
-For example, if you use 
+
 
 ###  5. Redirect user to payment action afterwards
 ```php
