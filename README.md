@@ -1,6 +1,6 @@
 Yandex.Kassa API extension for Yii2
 ===================================
-This extensions allows you to obtain money from users by new [Yandex.Kassa's API](https://kassa.yandex.ru/docs/checkout-api/).   
+This extension allows you to obtain money from users by new [Yandex.Kassa's API](https://kassa.yandex.ru/docs/checkout-api/).   
 It was designed to be pretty simple to use so you don't have to deep down into Yandex.Kassa's workflow.
 
 **This extension strongly in beta, so feel free to send pull requests and fix bugs**
