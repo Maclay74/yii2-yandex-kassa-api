@@ -30,6 +30,14 @@ class ConfirmPaymentAction extends Action {
      * @var string
      */
     public $orderClass;
+    
+    /**
+     * это нужно чтобы пост от яндекса проходил
+     */
+    public function init() {
+        parent::init();
+        $this->controller->enableCsrfValidation = false;
+    }
 
     public function run() {
 
